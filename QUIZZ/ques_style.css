@@ -1,0 +1,96 @@
+
+.box{
+    /*background-color: grey;*/
+    padding: 20px;
+    margin-left: 20%;
+    margin-top: 100px;
+    width: 600px;
+    border-radius: 20px;
+    padding: 50px;
+    border: 3px solid black;
+    box-shadow: 4px 4px gray;
+    height: 400px;
+    
+}
+.input-question{
+    display: flex;
+    /*justify-content: center;*/
+    margin-bottom: 50px;
+}
+
+
+.input-question label{
+    width: 180px;
+    font-size: 0.7cm;
+}
+
+
+.input-question textArea{
+    height: 2cm;
+    width: 10cm;
+    border-radius: 20px;
+    /*margin-left: 20*/
+    padding-left: 10px;
+    font-size: 15px;
+    border: 2px solid black;
+    box-shadow: 4px 4px gray;
+}
+
+.input-option{
+    display: flex;
+    /*justify-content: center;*/
+    margin-bottom: 20px;
+    
+    
+}
+
+.input-option label{
+    width: 180px;
+    font-size: 0.5cm;
+}
+
+.input-option input[type="text"]{
+    width: 200px;
+    height: 30px;
+    border-radius: 20px;
+    padding-left: 10px;
+    font-size: 15px;
+    border: 2px solid black;
+    box-shadow: 4px 4px gray;
+}
+
+.input-option #correct:hover {
+    border: 3px solid greenyellow;
+}
+
+.box .input-button{
+    margin-top: 40px;
+}
+
+
+
+.box .input-button input[type="submit"]{
+    background-color: blue;
+    color: white;
+    height:40px;
+    width: 100px;
+    border-radius: 12px;
+    float: right;
+    font-size: 15px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    box-shadow: 3px 3px gray;
+}
+
+.box .input-button input[type="reset"]{
+    background-color: red;
+    color: white;
+    height:40px;
+    width: 100px;
+    border-radius: 12px;
+    float: left;
+    font-size: 15px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    box-shadow: 3px 3px gray;
+}
